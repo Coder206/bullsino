@@ -1,0 +1,17 @@
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(375,375,350,0,2*Math.PI);
+ctx.fillStyle = "#FF0000";
+ctx.stroke();
+ctx.fill();
+ctx.beginPath();
+ctx.arc(375,375,100,0,2*Math.PI);
+ctx.fillStyle = "green";
+ctx.stroke();
+ctx.fill();
+ctx.beginPath();
+ctx.arc(395,260,10,0,2*Math.PI);
+ctx.fillStyle = "white";
+ctx.stroke();
+ctx.fill();
